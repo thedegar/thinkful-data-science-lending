@@ -1,4 +1,4 @@
-Challenge:
+Challenge (prob_lending_club.py):
 
 Write a script called "prob_lending_club.py" that reads in the loan data, cleans it, and loads it into a pandas DataFrame. 
 Use the script to generate and save a boxplot, histogram, and QQ-plot for the values in the "Amount.Requested" column. 
@@ -14,3 +14,13 @@ The Amount Funded is much less than the Amount Requested.
     The Amount Requested is evenly distributed and appears to be a uniform distribution.
         The boxplots, histogram and qq-plot all support this.
     The Amount Funded is closer to a normal distribution than the Amount Reqeusted, but it is has a long tail on the right side (high side) 
+
+
+
+Challenge (chi_squared.py): 
+
+Write a script called "chi_squared.py" that loads the data, cleans it, performs the chi-squared test, and prints the result. 
+Push your code to GitHub and enter the link below.
+
+chi = 2408.43314652
+p value = 0.0
