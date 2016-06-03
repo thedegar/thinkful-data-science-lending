@@ -1,0 +1,16 @@
+Challenge:
+
+Write a script called "prob_lending_club.py" that reads in the loan data, cleans it, and loads it into a pandas DataFrame. 
+Use the script to generate and save a boxplot, histogram, and QQ-plot for the values in the "Amount.Requested" column. 
+Be able to describe the result and how it compares with the values from the "Amount.Funded.By.Investors". 
+Push your code to GitHub and enter the link below.
+
+
+Observations:
+
+The Amount Funded is much less than the Amount Requested.
+    The center of the Amount Funded data is around 10k, while the center of Amount Funded is around 50k.
+    The high side of Amount Funded has some flyers around 35k and a long tail on that side.
+    The Amount Requested is evenly distributed and appears to be a uniform distribution.
+        The boxplots, histogram and qq-plot all support this.
+    The Amount Funded is closer to a normal distribution than the Amount Reqeusted, but it is has a long tail on the right side (high side) 
